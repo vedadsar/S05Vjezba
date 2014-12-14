@@ -36,8 +36,8 @@ public class Toys {
 		this.toyName = toyName;
 		this.toyType = toyType;
 		this.toyPrice = toyPrice;
-		this.toyBuiltYear = toyBuiltYear;
-		this.toyAgeRes = toyAgeRes;
+		setToyBuiltYear(toyBuiltYear);
+		setToyAgeRes(toyAgeRes);
 	}
 	
 	//Geter i seter toyName
@@ -66,6 +66,9 @@ public class Toys {
 		return toyBuiltYear;
 	}
 	public void setToyBuiltYear(int toyBuiltYear) {
+		if(toyBuiltYear<1900 || toyBuiltYear > 2014)
+			toyBuiltYear=2014;
+		
 		this.toyBuiltYear = toyBuiltYear;
 	}
 	//Get i set za toyAgesRes...
@@ -74,7 +77,8 @@ public class Toys {
 	}
 	public void setToyAgeRes(int toyAgeRes) {
 		if(toyAgeRes < 0 || toyAgeRes >100)
-			throw new IllegalArgumentException("ERROR");
+			toyAgeRes=0;
+		
 		this.toyAgeRes = toyAgeRes;
 	}
 	
