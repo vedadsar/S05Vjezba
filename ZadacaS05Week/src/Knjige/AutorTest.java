@@ -3,18 +3,21 @@ package Knjige;
 public class AutorTest {
 public static void main(String[] args) {
 	
-Autor prvi = new Autor();
-//System.out.println(prvi);
+//Autor podaciOAutoru = new Autor("Neki lik", "adresa32", "musko");
+//	Knjiga podaciOKnjizi = new Knjiga("NEKA KNJIGA", 4, 7, podaciOAutoru);
+//Pjesma podaciOPjesmi = new Pjesma("Neka pjesma", 8, podaciOAutoru);
+   
+   Bookstore imeKnjizare = new Bookstore ("Gorjanova Knjizara");
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   //imeKnjizare.addABook("Neka knjiga", 5, 12);
+  // imeKnjizare.addABook("Neka knjiga", 5, 12);
+  // imeKnjizare.addABook("Neka knjiga", 5, 12);
+  // imeKnjizare.addABook("Neka knjiga", 5, 12);
+  // imeKnjizare.addABook("Neka knjiga", 5, 12);
+  // imeKnjizare.addABook("Neka knjiga", 5, 12);
 
-Autor drugi = new Autor("Sanela" , "sanela@mail.com", "F");
-System.out.println(drugi.toString());
-
-System.out.println();
-
-Knjiga prva = new Knjiga("knjiga", 20, 20, drugi);
-
-System.out.println(prva.toString());
-
+   
+   imeKnjizare.toString();
 }
 
 }
