@@ -9,15 +9,15 @@ public static void main(String[] args) {
    
    Bookstore imeKnjizare = new Bookstore ("Gorjanova Knjizara");
    imeKnjizare.addABook("Neka knjiga", 5, 12);
-   //imeKnjizare.addABook("Neka knjiga", 5, 12);
-  // imeKnjizare.addABook("Neka knjiga", 5, 12);
-  // imeKnjizare.addABook("Neka knjiga", 5, 12);
-  // imeKnjizare.addABook("Neka knjiga", 5, 12);
-  // imeKnjizare.addABook("Neka knjiga", 5, 12);
-  // imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
+   imeKnjizare.addABook("Neka knjiga", 5, 12);
 
    
-   imeKnjizare.toString();
+  System.out.println(imeKnjizare.toString());
 }
 
 }

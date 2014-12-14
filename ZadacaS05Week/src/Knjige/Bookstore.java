@@ -47,7 +47,7 @@ public class Bookstore {
 		
 		String bookstoreToString ="";
 				
-		System.out.println("U knjizari " +this.bookstoreName +" nalaze se: ");
+		System.out.println("U knjizari " +this.bookstoreName +" nalaze se: \n ");
 		
 		for(int i=0; i<numOfBooks;i++){
 			bookstoreToString += books[i].toString();

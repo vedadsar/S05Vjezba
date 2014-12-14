@@ -55,7 +55,7 @@ public class Knjiga {
 	
 	public String toString() { // TO STRING RADI ISPISA
 		String knjigaToString = "Name: " + naziv + "\nCijena: " + cijena + "\nStanje: "
-				+ stanje + "\nAutor"+ autorKnjige;
+				+ stanje + "\nAutor"+ autorKnjige +"\n\n";
 		return knjigaToString;
 	}
 
